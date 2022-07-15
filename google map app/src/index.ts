@@ -5,9 +5,8 @@ import { CustomMap } from './CustomMap';
 
 function map(): void {
   const user = new User();
-  console.log(user);
+
   const company = new Company();
-  console.log(company);
 
   const mapContainer = document.getElementById('map');
   if (mapContainer) {
