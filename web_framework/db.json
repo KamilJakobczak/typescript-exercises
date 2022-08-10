@@ -14,6 +14,16 @@
       "name": "Kamil",
       "age": 31,
       "id": 3
+    },
+    {
+      "name": "Gabi",
+      "age": 3,
+      "id": 4
+    },
+    {
+      "name": "random",
+      "age": 3,
+      "id": 5
     }
   ]
 }
