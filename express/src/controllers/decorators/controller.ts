@@ -19,7 +19,8 @@ export function controller(routePrefix: string) {
         key
       );
       const middlewares =
-        Reflect.getMetadata(MetadataKeys.MIDDLEWARE, target, key) || [];
+        Reflect.getMetadata(MetadataKeys.MIDDLEWARE, target.prototype, key) ||
+        [];
 
       if (path) {
         router[method](`${routePrefix}${path}`, ...middlewares, routeHandler);
